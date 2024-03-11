@@ -39,6 +39,6 @@ crop_y = 287  # starting y-coordinate of the crop region
 crop_width = 2101  # width of the crop region
 crop_height = 1227  # height of the crop region
 target_width = 227  # width of the resized image
-target_height = 277  # height of the resized image
+target_height = 227  # height of the resized image
 
 crop_and_resize_images(input_parent_directory, output_parent_directory, crop_x, crop_y, crop_width, crop_height, target_width, target_height)
